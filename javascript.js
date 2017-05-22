@@ -3,7 +3,7 @@ $(document).ready(function(){
     $("a").css("color","#DC7633");
   });
 });
-$(".ic").click(function(event){
+$(".ic").click(function(){
   $(".input-prepend").addClass("target1");
   $(".add-on").html("<a href=\"#\"><i class=\"fa fa-times tim\" title=\"Click to reverse\"></i></a>");
   $(".target3").html("<input class=\"span2\" type=\"text\" placeholder=\"\">");
@@ -12,11 +12,9 @@ $(".ic").click(function(event){
   $(".target1").css("border-radius","1em");
   $(".target1").css("color","#DC7633");
   $(".target1").css("width","17em");
-  //$(".target1").css("margin-left","32em");
   $(".target1").css("margin-bottom","2em");
   $(".target1").css("border-width",".35em");
   $(".subbtn").html("<button class=\"btn btn-lg btn-warning\">Submit</button>");
-  //$(".subbtn").css("margin-top","1em");
   $(".ic").empty();
   $(".rand1").empty();
 });
