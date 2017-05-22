@@ -1,0 +1,78 @@
+body{
+  background-color:#154360;
+  font-family: 'Droid Serif', serif;
+}
+
+.rand{
+  color:white;
+}
+
+.rand1{
+  color:white;
+}
+
+.ele1{
+  position:center;
+  margin-bottom:1.5em;
+  margin-top:17em;
+}
+
+.ic{
+  color:#DC7633;
+  font-size:4em;
+}
+
+.input-prepend{
+  margin-left:32em;
+}
+
+.result{
+  font-size:3em;
+  color:#17202A;
+  background-color:white;
+  padding-left:1em;
+  padding-right:1em;
+}
+
+@media(max-width:800px){
+  .ele1{
+  position:center;
+  margin-bottom:1.5em;
+  margin-top:12em;
+}
+
+  .input-prepend{
+  margin-left:4em;
+}
+
+  .result{
+  font-size:1.5em;
+  color:#17202A;
+  background-color:white;
+  padding-left:0.25em;
+  padding-right:0.25em;
+}
+}
+
+input{
+  background-color:#154360;
+  border-color:#154360;
+  width:15em;
+  height:2em;
+}
+
+.tim{
+  color:#DC7633;
+}
+
+a:hover{
+  color:#DC7633;
+}
+
+a{
+  color:#17202A;
+}
+
+footer{
+  color:white;
+}
