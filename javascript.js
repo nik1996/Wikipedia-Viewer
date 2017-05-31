@@ -2,8 +2,7 @@ $(document).ready(function(){
   $("a").click(function(){
     $("a").css("color","#DC7633");
   });
-});
-$(".ic").click(function(){
+  $(".ic").click(function(){
   $(".input-prepend").addClass("target1");
   $(".add-on").html("<a href=\"#\"><i class=\"fa fa-times tim\" title=\"Click to reverse\"></i></a>");
   $(".target3").html("<input class=\"span2\" type=\"text\" placeholder=\"\">");
@@ -94,3 +93,4 @@ $(".subbtn").click(function(event){
       alert("Enter text to search");
     }
   });
+});
